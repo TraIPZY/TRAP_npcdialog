@@ -28,28 +28,7 @@ Installation:
 3. Configure NPCs in config.lua and set the script version:
    Config.Version = "1.0.0"
 
-Example config.lua:
-------------------
-Config.Peds = {
-    {
-        id = 1,
-        model = 'a_m_m_business_01',
-        coords = vector4(215.76, -810.12, 29.73, 90.0),
-        text = 'Hello, how can I help you?',
-        price = 100,
-        response = "Thank you for your purchase!",
-        item = 'bread', -- optional
-    },
-    {
-        id = 2,
-        model = 'a_m_m_skater_01',
-        coords = vector4(300.12, -580.24, 43.29, 180.0),
-        text = 'Hey! Want to buy something?',
-        price = 50,
-        response = "Here’s your item!",
-        item = 'water',
-    },
-}
+
 
 Notes:
 ------
