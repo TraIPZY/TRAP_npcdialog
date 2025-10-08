@@ -35,3 +35,5 @@ Notes:
 - Version checker uses GitHub raw URL
 - Players must manually update to apply a new version
 - Notifications require ox_lib
+
+<img width="1008" height="936" alt="image" src="https://github.com/user-attachments/assets/ea706e1f-22ca-42db-889e-869697592800" />
