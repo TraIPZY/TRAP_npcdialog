@@ -1,29 +1,17 @@
 local talkingTo = nil
 
--- ========================
--- Version Checker
--- ========================
-Citizen.CreateThread(function()
-    local currentVersion = Config.Version
-    local versionURL = "https://raw.githubusercontent.com/TRAPZY/npc-dialogue/main/version.txt" -- Remplace par ton repo
-
-    PerformHttpRequest(versionURL, function(statusCode, response, headers)
-        if statusCode == 200 then
-            local latestVersion = response:gsub("%s+", "") -- retire les espaces et retours à la ligne
-            if latestVersion ~= currentVersion then
-                print("^1[NPC Dialogue] Une nouvelle version est disponible ! Version actuelle : "..currentVersion.." | Dernière version : "..latestVersion.."^0")
-            else
-                print("^2[NPC Dialogue] Vous utilisez la dernière version ("..currentVersion..")^0")
-            end
-        else
-            print("^3[NPC Dialogue] Impossible de vérifier la dernière version.^0")
-        end
-    end)
+-- Notification de version
+RegisterNetEvent('TRAP_npcdialog:versionNotify')
+AddEventHandler('TRAP_npcdialog:versionNotify', function(current, latest)
+    lib.notify({
+        title = 'NPC Dialogue',
+        description = ('Nouvelle version disponible ! Votre version : %s | Dernière version : %s'):format(current, latest),
+        type = 'error', -- rouge pour attirer l'attention
+        position = 'top'
+    })
 end)
 
--- ========================
 -- Spawn des PNJ
--- ========================
 CreateThread(function()
     for _, pedData in pairs(Config.Peds) do
         local model = GetHashKey(pedData.model)
@@ -48,9 +36,7 @@ CreateThread(function()
     end
 end)
 
--- ========================
 -- Ouvrir le dialogue
--- ========================
 function openDialog(pedData)
     talkingTo = pedData.id
     print("DEBUG | Menu ox_lib ouvert pour PNJ id:", pedData.id)
@@ -83,9 +69,7 @@ function openDialog(pedData)
     lib.showContext('npc_dialog_' .. pedData.id)
 end
 
--- ========================
 -- Quand le serveur envoie la réponse
--- ========================
 RegisterNetEvent('TRAP_npcdialog:deliverResponse', function(pedId, response)
     print("DEBUG | deliverResponse reçu du serveur. PNJ id:", pedId, "response:", response)
     if talkingTo ~= pedId then return end
