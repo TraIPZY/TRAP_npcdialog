@@ -1,5 +1,5 @@
 Config = {}
-Config.Version = "1.0.0"
+Config.Version = "1.0.1"
 
 -- Notification (ox_lib)
 Config.NotifyEvent = 'ox_lib:notify'
@@ -27,3 +27,4 @@ Config.Peds = {
         response = "Le code du bunker, c’est 1983."
     }
 }
+
