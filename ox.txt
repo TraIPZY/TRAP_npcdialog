@@ -1,0 +1,25 @@
+-----door lab template item ox-inventaire
+    ['weed_door'] = {
+    label = 'clé',
+    weight = 100,
+    stack = false,
+    description = 'clé donnant acces au labo de weed'
+},
+    ['door_note_weed'] = {
+        label = 'note emplacement',
+        weight = 1,
+        stack = false,
+        description = 'le labo de weed se trouve pres du CP ....'
+    },
+    ['lean_door'] = {
+    label = 'clé',
+    weight = 100,
+    stack = false,
+    description = 'clé donnant acces au labo de lean'
+},
+    ['door_note_lean'] = {
+        label = 'note emplacement',
+        weight = 1,
+        stack = false,
+        description = 'le labo de lean se trouve pres du CP ....'
+    },
