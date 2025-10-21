@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'TraPZY'
 description 'TRAP NPC Dialogue - NPC interaction avec paiement ox_inventory'
-version '1.2.0'
+version '1.2'
 
 shared_scripts {
     '@ox_lib/init.lua',
@@ -23,3 +23,4 @@ dependencies {
     'ox_target',
     'ox_inventory'
 }
+
