@@ -37,4 +37,5 @@ Notes:
 - Notifications require ox_lib
 
 <img width="1027" height="908" alt="image" src="https://github.com/user-attachments/assets/3ea71dad-131c-47f1-a04c-769d4fb18fc8" />
+<img width="213" height="217" alt="image" src="https://github.com/user-attachments/assets/aa3b2f39-6cd8-4086-8863-88f409258cb7" />
 
