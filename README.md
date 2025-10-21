@@ -1,6 +1,6 @@
 ===========================
 TRAP_npcdialog
-ESX + Codem Inventory
+ESX + ox inventory
 ===========================
 
 Author: TRAPZY
