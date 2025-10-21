@@ -1,7 +1,7 @@
 Config = {}
 
 -- 📦 Version du script
-Config.Version = "1.2.0"
+Config.Version = "1.2"
 
 -- 🔔 Notification (ox_lib)
 Config.NotifyEvent = 'ox_lib:notify'
@@ -48,3 +48,4 @@ Config.Peds = {
   --      }
   --  }
 }
+
