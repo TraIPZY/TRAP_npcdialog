@@ -25,8 +25,7 @@ Installation:
 1. Copy or clone the folder into resources/[your-folder]/
 2. Add to server.cfg:
    ensure TRAP_npcdialog
-3. Configure NPCs in config.lua and set the script version:
-   Config.Version = "1.0.0"
+3. Configure NPCs in config.lua 
 
 
 
