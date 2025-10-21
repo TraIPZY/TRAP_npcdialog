@@ -14,7 +14,7 @@ Config.Peds = {
     {
         id = 1,
         model = "s_m_m_highsec_01",
-        coords = vector4(160.3691, -254.0066, 51.3997, 161.3497),
+        coords = vector4(1728.2262, 6400.5591, 34.5595, 245.1664),
         price = 5000,
         text = "Yo… j’ai mis la main sur une clé de labo. Si tu la veux, va falloir payer 5000 $ en cash. J’te dirai où c’est une fois le fric posé.",
         --response = "Le code de la porte est 4762. Oublie pas qui te l’a donné...",
@@ -26,7 +26,7 @@ Config.Peds = {
     {
         id = 2,
         model = "a_m_m_hillbilly_01",
-        coords = vector4(1522.5448, 6329.1973, 24.6069, 335.1340),
+        coords = vector4(1728.2262, 6300.5591, 34.5595, 245.1664),
         price = 5000,
         text = "Yo… j’ai mis la main sur une clé de labo. Si tu la veux, va falloir payer 5000 $ en cash. J’te dirai où c’est une fois le fric posé.",
         --response = "Le code du bunker, c’est 1983.",
@@ -48,4 +48,5 @@ Config.Peds = {
   --      }
   --  }
 }
+
 
