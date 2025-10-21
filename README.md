@@ -9,7 +9,7 @@ License: MIT
 Description:
 -------------
 TRAP_npcdialog is an interactive NPC dialogue system.
-Players can talk to NPCs, pay with cash or items via Codem Inventory,
+Players can talk to NPCs, pay with cash or items via ox Inventory,
 and receive custom responses. Compatible with ox_lib and ox_target.
 Includes a version checker to notify players when a new version is available.
 
