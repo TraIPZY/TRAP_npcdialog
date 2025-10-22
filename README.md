@@ -5,7 +5,8 @@ ESX + ox inventory
 
 Author: TRAPZY
 License: MIT
-
+Support or creation HERE:
+https://discord.gg/rjjU2y93X7
 Description:
 -------------
 TRAP_npcdialog is an interactive NPC dialogue system.
