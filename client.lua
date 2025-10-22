@@ -66,8 +66,9 @@ end
 RegisterNetEvent('TRAP_npcdialog:deliverResponse', function(pedId, response)
     if talkingTo ~= pedId then return end
     lib.notify({
-        title = 'PNJ',
+        title = 'Homme Mysterieux',
         description = response,
         type = 'inform'
     })
 end)
+
