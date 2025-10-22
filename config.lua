@@ -17,7 +17,7 @@ Config.Peds = {
         coords = vector4(1728.2262, 6400.5591, 34.5595, 245.1664),
         price = 5000,
         text = "Yo… j’ai mis la main sur une clé de labo. Si tu la veux, va falloir payer 5000 $ en cash. J’te dirai où c’est une fois le fric posé.",
-        --response = "Le code de la porte est 4762. Oublie pas qui te l’a donné...",
+        response = "voilà tu as tout ce qu’il te faut....",
         rewards = { -- 🎁 Liste d’items à donner
             { item = "door_note_weed", amount = 1 },
             { item = "weed_door", amount = 1 }
@@ -29,7 +29,7 @@ Config.Peds = {
         coords = vector4(1728.2262, 6300.5591, 34.5595, 245.1664),
         price = 5000,
         text = "Yo… j’ai mis la main sur une clé de labo. Si tu la veux, va falloir payer 5000 $ en cash. J’te dirai où c’est une fois le fric posé.",
-        --response = "Le code du bunker, c’est 1983.",
+        response = "Le code du bunker, c’est 1983.",
         rewards = {
             { item = "door_note_lean", amount = 1 },
             { item = "lean_door", amount = 1 }
@@ -48,5 +48,6 @@ Config.Peds = {
   --      }
   --  }
 }
+
 
 
