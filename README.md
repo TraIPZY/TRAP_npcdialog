@@ -6,9 +6,12 @@ ESX + ox inventory
 Author: TRAPZY
 License: MIT
 ---------------
+# TRAP_npcdialog 🚀
+
 Support or creation HERE:
 https://discord.gg/rjjU2y93X7
 
+-----------------------------
 ---------------
 Description:
 -------------
