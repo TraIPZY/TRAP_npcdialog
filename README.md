@@ -41,7 +41,8 @@ Notes:
 - Players must manually update to apply a new version
 - Notifications require ox_lib
 
-<img width="794" height="677" alt="image" src="https://github.com/user-attachments/assets/35803b93-dad7-46bd-9a69-a431ea222053" />
+<img width="1157" height="882" alt="image" src="https://github.com/user-attachments/assets/79d798e0-dcae-473e-a2b6-be3694f9016b" />
+
 
 <img width="213" height="217" alt="image" src="https://github.com/user-attachments/assets/aa3b2f39-6cd8-4086-8863-88f409258cb7" />
 
