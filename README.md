@@ -9,7 +9,7 @@ License: MIT
 
 Support or creation HERE:
 https://discord.gg/rjjU2y93X7
-
+DEMO https://www.youtube.com/watch?v=md-_FgENHxg
 -----------------------------
 ---------------
 Description:
@@ -40,7 +40,7 @@ Notes:
 - Version checker uses GitHub raw URL
 - Players must manually update to apply a new version
 - Notifications require ox_lib
-  https://www.youtube.com/watch?v=md-_FgENHxg
+
 
 [<img width="1157" height="882" alt="image" src="https://github.com/user-attachments/assets/79d798e0-dcae-473e-a2b6-be3694f9016b" />](https://www.youtube.com/watch?v=md-_FgENHxg)
 
