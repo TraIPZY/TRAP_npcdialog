@@ -53,3 +53,23 @@ RegisterNetEvent('TRAP_npcdialog:attemptBuy', function(pedId)
     -- Message du PNJ
     TriggerClientEvent('TRAP_npcdialog:deliverResponse', src, pedId, pedCfg.response)
 end)
+
+
+
+
+
+AddEventHandler('onResourceStart', function(resourceName)
+    if resourceName ~= GetCurrentResourceName() then return end
+
+    print('^4████████╗██████╗  █████╗ ██████╗ ')
+    print('^4╚══██╔══╝██╔══██╗██╔══██╗██╔══██╗')
+    print('^4   ██║   ██████╔╝███████║██████╔╝')
+    print('^4   ██║   ██╔══██╗██╔══██║██╔═══╝ ')
+    print('^4   ██║   ██║  ██║██║  ██║██║     ')
+    print('^4   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ')
+    print('^7')
+    print('^6   Discord : https://discord.gg/rjjU2y93X7')
+    print('^8   Créé par TRAPZY')
+    print('^3   © TRAP Development')
+
+end)
