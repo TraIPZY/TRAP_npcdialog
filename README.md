@@ -46,5 +46,6 @@ Notes:
 [<img width="1157" height="882" alt="image" src="https://github.com/user-attachments/assets/79d798e0-dcae-473e-a2b6-be3694f9016b" />](https://www.youtube.com/watch?v=md-_FgENHxg)
 
 
-<img width="213" height="217" alt="image" src="https://github.com/user-attachments/assets/aa3b2f39-6cd8-4086-8863-88f409258cb7" />
+<img width="958" height="724" alt="image" src="https://github.com/user-attachments/assets/8ab61078-506f-4118-8c83-4c5046ae4559" />
+
 
